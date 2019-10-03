@@ -53,3 +53,4 @@ When working with git with a world wide team you may be making changes at the sa
 2. Or you can edit the original github repo's code directly. Choose this option if you have a quick contribution.
 
 
+ <b>\- Shin McCold, Student - Maharashtra, India </b>
