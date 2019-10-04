@@ -52,4 +52,6 @@ When working with git with a world wide team you may be making changes at the sa
 1. You can fork a project and compare across forks. Choose this option if you plan to contribute more than once.
 2. Or you can edit the original github repo's code directly. Choose this option if you have a quick contribution.
 
+Contributors :
 
+1. Hrishikesh Athalye, Student - Pune, India
