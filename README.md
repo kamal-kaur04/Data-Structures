@@ -27,14 +27,14 @@ It's hard. It's always hard the first time you do something. Especially when you
 
 - Name, Profession - Location
 
-Example: <b>\- Kamalpreet Kaur, Student - Delhi, India </b>
+Example: 1. [Kamalpreet Kaur](https://github.com/kamal-kaur04), Student - Delhi, India
 
 3. Commit the change to your fork, using a clear and descriptive commit message.
 
 4. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 # Amazing Contributors :heart:
-1. [Kamalpreet Kaur](https://github.com/kamal-kaur04), Student - Delhi,India
+1. [Kamalpreet Kaur](https://github.com/kamal-kaur04), Student - Delhi, India
 
 ## What should I do next for Hacktoberfest'19?
 
