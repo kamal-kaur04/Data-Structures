@@ -34,7 +34,7 @@ Example: <b>\- Kamalpreet Kaur, Student - Delhi, India </b>
 4. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 # Amazing Contributors :heart:
-1. [Kamalpreet Kaur](https://github.com/kamal-kaur04),Student - Delhi , India
+1. [Kamalpreet Kaur](https://github.com/kamal-kaur04), Student - Delhi,India
 
 ## What should I do next for Hacktoberfest'19?
 
