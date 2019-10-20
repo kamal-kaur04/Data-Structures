@@ -1,0 +1,78 @@
+#include<stdlib.h> 
+#include<iostream> 
+using namespace std; 
+ 
+class Node{ 
+
+ public: 
+   void *data; 
+   Node *next; 
+}; 
+ 
+class Stack{ 
+ 
+ public: 
+   Node *top; 
+   int stackCount; 
+   Stack(){ 
+     Node *temp ; 
+     temp = (Node*)malloc(sizeof(Node)); 
+ 	 	 temp->data = NULL; 
+ 	 	 temp->next = NULL; 
+ 	 	 this->top = temp; 
+ 	 	 this->stackCount = 0; 
+ 	 } 
+ 
+   bool push(void *data){ 
+ 	 	 Node *temp = (Node*)malloc(sizeof(Node)); 
+ 	 	 if(temp){ 
+ 	 	 	 temp->data = data; 
+ 	 	 	 temp->next = top; 
+ 	 	     this->top = temp; 
+ 	 	 	 this->stackCount++; 
+ 	 	 	 return true; 
+ 	 	 } 
+ 	 	 return false; 
+       } 
+ 
+ 	 void* pop(){ 
+ 	 	 if(this->stackCount > 0){ 
+ 	 	 	 void *data = this->top->data; 
+ 	 	 	 Node* temp = this->top; 
+ 	 	 	 this->top = this->top->next; 
+ 	 	 	 free(temp); 
+ 	 	 	 this->stackCount--; 
+ 	 	 	 return data; 
+ 	 	 } 
+ 	 	 return NULL; 
+ 	 } 
+ 
+ 	 void* stackTop() { 
+ 	 	 return this->top->data; 
+ 	 } 
+ 
+ }; 
+ 
+ 
+ 
+ int main(){
+ 	 Stack *stk = new Stack();   //creating a stack object
+
+ 	 int* d1; 
+ 	 d1 = new int(34); 
+
+ 	 stk->push(d1);    //pushing 34 to the stack i.e. stack: 34
+ 
+ 	 int *d2; 
+ 	 d2 =new int(72); 
+ 
+ 	 stk->push(d2);    //pushing 72 to the stack i.e. stack: 72 34
+ 
+ 	 while (stk->top->next != NULL){      //popping every element in the stack
+ 	 	 int *pData = (int*)stk->pop(); 
+ 	 	 cout << *pData << endl; 
+ 	 } 
+
+ 	
+ 	 return 0; 
+ } 
