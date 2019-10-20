@@ -28,7 +28,7 @@ class Stack{
  	 	 if(temp){ 
  	 	 	 temp->data = data; 
  	 	 	 temp->next = top; 
- 	 	     this->top = temp; 
+ 	 	   this->top = temp; 
  	 	 	 this->stackCount++; 
  	 	 	 return true; 
  	 	 } 
@@ -64,7 +64,7 @@ class Stack{
  	 stk->push(d1);    //pushing 34 to the stack i.e. stack: 34
  
  	 int *d2; 
- 	 d2 =new int(72); 
+ 	 d2 = new int(72); 
  
  	 stk->push(d2);    //pushing 72 to the stack i.e. stack: 72 34
  
