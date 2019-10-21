@@ -1,4 +1,4 @@
-//Singly List Implementation
+//Singly Linked List Implementation
 #include <iostream>
  
 using namespace std;
